@@ -110,19 +110,19 @@
 
 .ex-11-icon {
     font-size: 60px;
-    animation-duration: 3s;
+    animation-duration: 2s;
+    animation-timing-function: linear;
 }
 /* exercise solution 11 */
 .ex-11-icon:hover {
     animation-name: icon-11;
-    animation-timing-function: ease;
 }
 @keyframes icon-11 {
     from {
         transform: rotate(0deg);
       }
-      75% {
-        transform: rotate(270deg);
+      95% {
+        transform: rotate(300deg);
       }
       to {
           transform: rotate(0deg);
