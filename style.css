@@ -96,7 +96,18 @@
 
 .ex-10-icon {
     font-size: 60px;
+    animation: icon-10 1s infinite linear;
 }
+/* exercise solution 10 */
+@keyframes icon-10 {
+    from {
+        transform: rotate(360deg);
+      }
+      to {
+        transform: rotate(0deg);
+      }
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
